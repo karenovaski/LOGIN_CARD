@@ -93,4 +93,4 @@ Mudei os codigos do javascript,alterei o cadastro adicionando a função de Emai
 
 # Resultado
 
-<img scr='img/print2.png'>
+<img src= "print2.png">
