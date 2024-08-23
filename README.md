@@ -76,6 +76,9 @@ function editar(i){
 
 A função editar tem a finalidade de preencher um campo de entrada com o nome que está na lista para permitir a edição desse nome. Após preencher o campo, a função deveria remover o nome da lista para evitar duplicações, mas a implementação original está incorreta. A correção envolve ajustar a chamada ao splice() para usar o índice correto da lista.
 
+## MUDANÇAS
+Mudei os codigos do javascript,alterei o cadastro adicionando a função de Email
+
 
 ## TECNOLOGIAS UTILIZADAS
 - Visual Studio Code
@@ -87,3 +90,7 @@ A função editar tem a finalidade de preencher um campo de entrada com o nome q
  
 ## AUTORES
 - [Karen Novaski](https://github.com/karenovaski?tab=repositories)
+
+# Resultado
+
+<img scr='img/print2.png'>
