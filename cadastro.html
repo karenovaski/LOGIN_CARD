@@ -12,26 +12,36 @@
 <body>
     <div class="container mt-5">
         <div class="mb-3">
-        <label for="">Nome:</label>
-        <input type="text" class="form-control" id="nomeUser"><br>
-    </div>
-    <div class="mb-3">
-        <label for="emailUser" class="form-label">Email:</label>
-        <input type="email" class="form-control" id="emailUser"><br>
-    </div>
-    <button type="button" onclick="salvarUser()" class="btn btn-success">Salvar</button>
+            <label for="nomeUser" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nomeUser">
+        </div>
+        <div class="mb-3">
+            <label for="emailUser" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="emailUser">
+        </div>
+        <div class="mb-3">
+            <label for="cpfUser" class="form-label">CPF:</label>
+            <input type="text" class="form-control" id="cpfUser">
+        </div>
+        <button type="button" onclick="salvarUser()" class="btn btn-success">Salvar</button>
     </div>
     <br>
     <div class="container">
         <table class="table table-striped" id="tabela">
-            <tr>
-                <Th>Nome Usuário</Th>
-                <th>Email</th>
-                <th>Ações</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Nome Usuário</th>
+                    <th>Email</th>
+                    <th>CPF</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- A tabela será preenchida dinamicamente -->
+            </tbody>
         </table>
     </div>
-
+ 
     <script src='controller.js'></script>
 </body>
 </html>
