@@ -13,8 +13,6 @@ Esse código JavaScript é uma implementação para gerenciar uma lista de nomes
 ## INTRODUÇÃO
 Este código ele oferece funcionalidades básicas para a adição, edição e exclusão de nomes, permitindo que o usuário interaja de maneira intuitiva com a interface. O sistema é dividido em várias funções que trabalham em conjunto para proporcionar uma experiência de gerenciamento de dados eficiente e direta.Este sistema foi desenvolvido para ser simples e eficaz, ideal para aplicações onde a gestão básica de uma lista de usuários é necessária. A interface permite uma manipulação direta dos dados, com feedback imediato para as ações do usuário.
 
-<img src= "print.png.jpeg">
-
 ## FUNCIONALIDADES
 O código fornecido tem como objetivo principal gerenciar uma lista de nomes de usuários em uma aplicação web.
 Essas funcionalidades permitem que o usuário adicione, edite e exclua nomes de uma lista, proporcionando uma interface simples para o gerenciamento de dados.
@@ -76,9 +74,19 @@ function editar(i){
 
 A função editar tem a finalidade de preencher um campo de entrada com o nome que está na lista para permitir a edição desse nome. Após preencher o campo, a função deveria remover o nome da lista para evitar duplicações, mas a implementação original está incorreta. A correção envolve ajustar a chamada ao splice() para usar o índice correto da lista.
 
-## MUDANÇAS
-Mudei os codigos do javascript,alterei o cadastro adicionando a função de Email
+## ALTERAÇÕES DA TELA DE CADASTRO
+<img src= "CPF.png">
 
+- Correção dos Links de Navegação: Verifiquei e ajustei o link do site para garantir que eles direcionem corretamente para a página correta, testei diversas vezes e confirmei que a navegação agora está funcionando como foi pedido.
+ 
+- Atualização da Documentação: A documentação foi revisada e atualizada para refletir todas as alterações feitas, incluí a adição do campo de coleta de CPF na tela de cadastro, conforme solicitado, todos os campos estão na tela.
+
+## ALTERAÇÃO DO README
+- Realizei as seguintes atualizações no arquivo README:
+Remoção de Informações Desnecessárias: Revisei o README e removi informações que já não são mais relevantes ao projeto atual
+ 
+- Atualização das Imagens: Substituí a imagem anterior que mostrava apenas os campos de nome e email por uma nova imagem que inclui todos os campos, agora incluindo também o campo de CPF. 
+Essas alterações foram feitas para melhorar a clareza do README.
 
 ## TECNOLOGIAS UTILIZADAS
 - Visual Studio Code
@@ -91,6 +99,3 @@ Mudei os codigos do javascript,alterei o cadastro adicionando a função de Emai
 ## AUTORES
 - [Karen Novaski](https://github.com/karenovaski?tab=repositories)
 
-# Resultado
-
-<img src= "print2.png">
